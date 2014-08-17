@@ -32,21 +32,29 @@ hr { display: block; height: 1px;
     margin: 1em 0; padding: 0; }
 
 body {
-background: #cceeff; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover, #cceeff 0%, #ade3ff 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#cceeff), color-stop(100%,#ade3ff)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover, #cceeff 0%,#ade3ff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover, #cceeff 0%,#ade3ff 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover, #cceeff 0%,#ade3ff 100%); /* IE10+ */
-background: radial-gradient(ellipse at center, #cceeff 0%,#ade3ff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cceeff', endColorstr='#ade3ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: #cceeff; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #cceeff 0%, #ade3ff 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#cceeff), color-stop(100%,#ade3ff)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #cceeff 0%,#ade3ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #cceeff 0%,#ade3ff 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #cceeff 0%,#ade3ff 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #cceeff 0%,#ade3ff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cceeff', endColorstr='#ade3ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
+/* Social media stuff */
 
 #youtube-vid{
 	border: 1px solid black;
 	width:50%;
 	margin:0 auto;
 }
+
+#facebook-feed{
+	width:100%;
+	border:1px solid black;
+}
+
 
 /* Navbar */
 *, *:before, *:after {
@@ -110,11 +118,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cceeff', end
 .btn-nav.active p {
     margin-bottom: 8px;
 }
-@-webkit-keyframes pulsate {
- 50% { color: #000; }
-}
-@keyframes pulsate {
- 50% { color: #000; }
+
 }
 @media (max-width: 480px) {
     .btn-group {
