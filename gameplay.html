@@ -32,6 +32,14 @@
           $("#footer").load("footer.html");
           });
     </script>
+    <script>
+        function hover(element) {
+            element.setAttribute('src', 'images/tsplash-05.png');
+        }
+        function unhover(element) {
+            element.setAttribute('src', 'images/tsplashnocoin-05.png');
+        }
+    </script>
 
 </head>
 
@@ -58,7 +66,7 @@
         <div class="row" id="about-row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="images/tsplash-05.png" alt="Splash Screen">
+                <img class="img-responsive" src="images/tsplashnocoin-05.png" alt="Splash Screen" onmouseover="hover(this);" onmouseout="unhover(this);">
             </div>
 
             <div class="col-md-4" id="about-box">
