@@ -43,60 +43,6 @@
 
     <div id="header"></div>
 
-
-<div class="container">
-    <div class="row">
-        <div class="btn-group btn-group-justified">
-            <div class="btn-group">
-                <a href="index.html">
-                <button type="button" class="btn btn-nav">
-                    <span class="glyphicon glyphicon-home"></span>
-                    <p>Home</p>
-                </button>
-                </a>
-            </div>
-            <div class="btn-group">
-                <a href="about.html">
-                <button type="button" class="btn btn-nav">
-                    <span class="glyphicon glyphicon-user"></span>
-                    <p>About</p>
-                </button>
-                </a>
-            </div>
-            <div class="btn-group">
-                <a href="gameplay.html">
-                <button type="button" class="btn btn-nav">
-                    <span class="glyphicon glyphicon-phone"></span>
-                    <p>Gameplay</p>
-                </button>
-                </a>
-            </div>
-            <div class="btn-group">
-                <a href="media.html">
-                <button type="button" class="btn btn-nav">
-                    <span class="glyphicon glyphicon-film"></span>
-                    <p>Media</p>
-                </button>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-var activeEl = 2;
-$(function() {
-    var items = $('.btn-nav');
-    $( items[activeEl] ).addClass('active');
-    $( ".btn-nav" ).click(function() {
-        $( items[activeEl] ).removeClass('active');
-        $( this ).addClass('active');
-        activeEl = $( ".btn-nav" ).index( this );
-    });
-});
-</script>
-
-
     <!-- Page Content -->
     <div class="container">
 
