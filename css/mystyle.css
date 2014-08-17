@@ -5,6 +5,17 @@
 	padding: 50px;
 }
 
+#about-box{
+	border:1px solid #888888;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius:20px;
+	padding: 20px;
+}
+
 .features-box {
 	font-size: 1.75em;
+}
+
+#about-row {
+	font-size: 1.25em;
 }
