@@ -24,21 +24,19 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+          $("#header").load("header.html");
+          });
+    </script>
 
 </head>
 
 <body>
 
-    <!-- Image Background Page Header -->
-    <header class="business-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="tagline">Peter's Quest</h1>
-                </div>
-            </div>
-        </div>
-    </header>
+    <div id="header"></div>
 
     <!-- Page Content -->
     <div class="container">
