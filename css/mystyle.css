@@ -45,16 +45,13 @@ body {
 /* Social media stuff */
 
 #youtube-vid{
-	border: 1px solid black;
 	width:50%;
 	margin:0 auto;
 }
 
 #facebook-feed{
 	width:100%;
-	border:1px solid black;
 }
-
 
 /* Navbar */
 *, *:before, *:after {
