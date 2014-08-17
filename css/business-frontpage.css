@@ -11,17 +11,23 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 400px;
-    background: url('/images/newfacebookcover.png') center center no-repeat scroll;
+    height: 480px;
+    background: url('../images/FacebookCoverAndProfileWithoutPeter-01.png') no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.business-header:hover{
+    -webkit-filter:blur(1px);
+    font-size:100px;
+}
+
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
+
     text-shadow: 0 0 10px #000;
     color: #fff;
 }
