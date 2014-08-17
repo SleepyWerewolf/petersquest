@@ -85,6 +85,20 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Navbar JavaScript -->
+    <script>
+    var activeEl = 0;
+    $(function() {
+      var items = $('.btn-nav');
+      $( items[activeEl] ).addClass('active');
+      $( ".btn-nav" ).click(function() {
+                            $( items[activeEl] ).removeClass('active');
+                            $( this ).addClass('active');
+                            activeEl = $( ".btn-nav" ).index( this );
+                            });
+      });
+    </script>
+
 </body>
 
 </html>
