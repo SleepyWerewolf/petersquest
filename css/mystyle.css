@@ -42,9 +42,9 @@ background: radial-gradient(ellipse at center, #cceeff 0%,#ade3ff 100%); /* W3C 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cceeff', endColorstr='#ade3ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-iframe{
+#youtube-vid{
 	border: 1px solid black;
-	width:100%;
+	width:50%;
 	margin:0 auto;
 }
 
