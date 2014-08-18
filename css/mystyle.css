@@ -60,6 +60,10 @@ body {
     height:100%;
 }
 
+#facebook-feed iframe{
+    width: 100% !important;
+}
+
 /* Navbar */
 *, *:before, *:after {
   /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
