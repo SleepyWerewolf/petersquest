@@ -50,6 +50,7 @@ body {
     padding-top: 35px;
     height:0;
     overflow:hidden;
+    margin: 0 auto;
 }
 
 #youtube-vid iframe{
@@ -57,7 +58,7 @@ body {
     top:0;
     left:0;
     width:70%;
-    height:auto;
+    height:100%;
 }
 
 #facebook-feed iframe{
