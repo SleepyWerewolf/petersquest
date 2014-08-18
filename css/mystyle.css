@@ -52,7 +52,7 @@ body {
     overflow:hidden;
 }
 
-#youtube-vid iframe, #facebook-feed iframe{
+#youtube-vid iframe{
     position:absolute;
     top:0;
     left:0;
