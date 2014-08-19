@@ -12,7 +12,7 @@ body {
 
 .business-header {
     height: 480px;
-    background: url('../images/transparentbanner.png') center center no-repeat scroll;
+    background: url('../images/transparent-no-grass.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
