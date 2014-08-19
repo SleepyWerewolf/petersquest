@@ -1,29 +1,51 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 4.3.0.2 (Linux)"/>
-	<meta name="author" content="R-)"/>
-	<meta name="created" content="2013-01-25T22:46:00"/>
-	<meta name="changedby" content="Nick"/>
-	<meta name="changed" content="2014-07-25T03:41:00"/>
-	<meta name="AppVersion" content="15.0000"/>
-	<meta name="DocSecurity" content="0"/>
-	<meta name="HyperlinksChanged" content="false"/>
-	<meta name="LinksUpToDate" content="false"/>
-	<meta name="ScaleCrop" content="false"/>
-	<meta name="ShareDoc" content="false"/>
-	<style type="text/css">
-		@page { size: 8.5in 11in; margin: 0.79in }
-		p { margin-bottom: 0.08in; direction: ltr; line-height: 120%; text-align: left; widows: 0; orphans: 0 }
-		p.western { font-size: 12pt }
-		p.cjk { font-family: "Lucida Sans Unicode"; font-size: 12pt; so-language: hi-IN }
-		p.ctl { font-family: "Mangal"; font-size: 12pt; so-language: hi-IN }
-		a:link { so-language: zxx }
-	</style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Peter's Quest is a mobile video game created by Nykular, LLC. 2014">
+    <meta name="author" content="Momentum Blogs">
+    <link rel="icon" type="image/png" href="images/logoAndIcon-08.png" />
+
+    <title>Terms of Service | Peter's Quest</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+          });
+    </script>
+
 </head>
-<body lang="en-US" dir="ltr">
+
+<body>
+
+<a href="index.html">&#8592; Back to home</a>
+
+<br/>
+
 <p class="western" align="justify" style="margin-bottom: 0in; line-height: 0.19in; widows: 2; orphans: 2"><a name="OLE_LINK1"></a>
 <font color="#333333"><font face="Arial, serif">PETER’S QUEST -
 TERMS OF SERVICE</font></font></p>
@@ -666,5 +688,30 @@ display the Feedback in any manner and for any purpose</font></font><font face="
 <br/>
 
 </p>
+
+    <div id="footer"></div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Navbar JavaScript -->
+    <script>
+    var activeEl = 0;
+    $(function() {
+      var items = $('.btn-nav');
+      $( items[activeEl] ).addClass('active');
+      $( ".btn-nav" ).click(function() {
+                            $( items[activeEl] ).removeClass('active');
+                            $( this ).addClass('active');
+                            activeEl = $( ".btn-nav" ).index( this );
+                            });
+      });
+    </script>
+
 </body>
+
 </html>
