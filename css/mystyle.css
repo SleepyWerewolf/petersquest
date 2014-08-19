@@ -63,7 +63,7 @@ body {
 
 #facebook-feed iframe{
     width: 100% !important;
-	top-margin: -50px;
+	margin-top: -50px;
 }
 
 /* Navbar */
