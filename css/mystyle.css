@@ -15,6 +15,7 @@ body{
     left:0%;
     bottom:0%;
     width:100% auto;
+    z-index:-1;
 }
 
 #grass img {
@@ -61,10 +62,6 @@ body {
 	background: -ms-radial-gradient(center, ellipse cover, #cceeff 0%,#ade3ff 100%); /* IE10+ */
 	background: radial-gradient(ellipse at center, #cceeff 0%,#ade3ff 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cceeff', endColorstr='#ade3ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
-#footer{
-	z-index:1000;
 }
 
 /* Social media stuff */
