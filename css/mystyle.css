@@ -49,12 +49,20 @@ body {
 
 /* Social media stuff */
 
-#youtube-vid, #facebook-feed{
+#youtube-vid {
 	position:relative;
     padding-bottom:56.25%;
     padding-top: 35px;
     width:100%;
     height:0;
+    overflow:hidden;
+}
+
+#facebook-feed {
+	position:relative;
+    padding-bottom:56.25%;
+    padding-top: 35px;
+    width:100%;
     overflow:hidden;
 }
 
