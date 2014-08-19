@@ -114,23 +114,27 @@ body {
   box-sizing: border-box;
 }
 .btn-nav {
-    background-color: #fff;
-    border: 1px solid #e0e1db;
+    background-color: #BD9D88;
+    border: 1px solid #514738;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
-.btn-nav:hover {
-    color: #a9bfe0 ;
+.glyphicon, .btn p{
+	color:#fff;
+}
+.btn-nav:hover, .glyphicon:hover{
+    color: #ffffff;
+    text-shadow: 2px 2px #888888;
     cursor: pointer;
     -webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
     transition: color 1s;
 }
 .btn-nav.active {
-    color: #a9bfe0 ;
+    color: #fff;
     padding: 2px;
-	border-top: 6px solid #a9bfe0 ;
-	border-bottom: 6px solid #a9bfe0 ;
+	border-top: 6px solid #000 ;
+	border-bottom: 6px solid #000 ;
     border-left: 0;
     border-right: 0;
     box-sizing:border-box;
@@ -149,7 +153,7 @@ body {
 	position: absolute;
 	border-style: solid;
 	border-width: 6px 6px 0;
-	border-color: #a9bfe0  transparent;
+	border-color: #888888  transparent;
 	display: block;
 	width: 0;
 	z-index: 1;
