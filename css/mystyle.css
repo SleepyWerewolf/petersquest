@@ -15,7 +15,6 @@ body{
     left:0%;
     bottom:0%;
     width:100% auto;
-    z-index:-1;
 }
 
 #grass img {
@@ -105,6 +104,11 @@ body {
 
 .scroll-wrapper iframe {
 	/* nada! */
+}
+
+#footer{
+	position:absolute;
+	z-index:1000;
 }
 
 /* Navbar */
