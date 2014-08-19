@@ -14,10 +14,16 @@
 <script>
     
     $(function(){
+      var docwidth  =  $(window).width();
       var logo = document.getElementById("logo");
       var pos  =  $(window).width() * .2;
       var width = pos.toString() + "px";
       logo.style.left = width;
+      if(docwidth < 600) {
+        logo.style.width = "300px";
+        logo.style.height = "300px";
+        logo.style.top = "50px";
+      }
       });
     
     $(window).scroll(function(){
