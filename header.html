@@ -20,17 +20,20 @@
       var width = pos.toString() + "px";
       logo.style.left = width;
       if(docwidth < 600) {
+        logo.style.left = "10px"
         logo.style.width = "300px";
         logo.style.height = "300px";
-        logo.style.top = "50px";
+        logo.style.top = "30px";
       }
       });
     
     $(window).scroll(function(){
+                     if(docwidth > 600) {
                      var logo = document.getElementById("logo");
                      var pos  =  $(window).width() * .2;
                      var width = pos.toString() + "px";
                      logo.style.left = width;
+                     }
     });
 </script>
 
