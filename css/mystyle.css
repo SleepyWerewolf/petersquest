@@ -15,6 +15,11 @@ body{
     left:0%;
     bottom:0%;
     width:100% auto;
+<<<<<<< HEAD
+    margin-bottom: -5px;
+=======
+    z-index:-1;
+>>>>>>> parent of cf142a3... ok let's try z-indexing again
 }
 
 #grass img {
@@ -104,11 +109,6 @@ body {
 
 .scroll-wrapper iframe {
 	/* nada! */
-}
-
-#footer{
-	position:absolute;
-	z-index:1000;
 }
 
 /* Navbar */
