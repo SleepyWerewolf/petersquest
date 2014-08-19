@@ -68,7 +68,7 @@ body {
 
 .scroll-wrapper {
 	-webkit-overflow-scrolling: touch;
-  	overflow-y: auto;
+  	overflow-y: auto !important;
 
 	/* important:  dimensions or positioning here! */
 }
