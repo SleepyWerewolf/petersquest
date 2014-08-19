@@ -68,6 +68,18 @@ body {
 
 #facebook-feed iframe{
     width: 100% !important;
+	margin-top: -100px;
+}
+
+.scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: auto !important;
+
+	/* important:  dimensions or positioning here! */
+}
+
+.scroll-wrapper iframe {
+	/* nada! */
 }
 
 /* Navbar */
