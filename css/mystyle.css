@@ -74,20 +74,20 @@ body {
     overflow:hidden;
 }
 
-#facebook-feed {
-	position:relative;
-    padding-bottom:0;
-    padding-top: 35px;
-    width:100%;
-    overflow:hidden;
-}
-
 #youtube-vid iframe{
     position:absolute;
     top:0;
     left:0;
     width:100%;
     height:100%;
+}
+
+#facebook-feed {
+	position:relative;
+    padding-bottom:0;
+    padding-top: 35px;
+    width:100%;
+    overflow:hidden;
 }
 
 #facebook-feed iframe{
