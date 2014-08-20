@@ -95,6 +95,10 @@ body {
 	margin-top: -100px;
 }
 
+.userContentWrapper{
+	background-color:white;
+}
+
 .scroll-wrapper {
 	-webkit-overflow-scrolling: touch;
   	overflow-y: auto !important;
