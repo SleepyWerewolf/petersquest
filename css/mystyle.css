@@ -88,12 +88,19 @@ body {
     padding-top: 35px;
     width:100%;
     overflow:hidden;
+    background:white;
+    border: 1.5px solid #888888;
+    border-radius: 15px;
+    box-shadow: 7px 7px 17px #888888;
+
 }
 
 #facebook-feed iframe{
     width: 100% !important;
 	margin-top: -100px;
 }
+
+
 
 .scroll-wrapper {
 	-webkit-overflow-scrolling: touch;
