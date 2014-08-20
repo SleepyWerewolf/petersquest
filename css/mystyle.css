@@ -10,6 +10,14 @@ body{
 	padding: 50px;
 }
 
+#features-bar h2{
+	text-align:center;
+}
+
+#features-bar p{
+	text-align:justify;
+}
+
 #grass {
     position: fixed; 
     left:0%;
