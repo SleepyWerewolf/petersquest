@@ -73,6 +73,10 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cceeff', endColorstr='#ade3ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+#about-img {
+    vertical-align: middle;
+    margin-top: 1.5%;
+}
 /* Social media stuff */
 
 #youtube-vid {
