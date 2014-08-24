@@ -119,6 +119,12 @@ body {
 	/* nada! */
 }
 
+/* Screenshot Popups */
+#screenshots img{
+    width: 500px;
+}
+
+
 /* Navbar */
 *, *:before, *:after {
   /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
