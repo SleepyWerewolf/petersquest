@@ -160,12 +160,12 @@ body {
     transition: text-shadow 1s ease;
 }
 .btn-nav.active {
-    color: #fff;
+    color: #514738;
     padding: 2px;
-	border-top: 6px solid #fff ;
-	border-bottom: 6px solid #fff ;
-    border-left: 0;
-    border-right: 0;
+	border-top: 6px solid #514738 ;
+	border-bottom: 6px solid #514738 ;
+    border-left: 1.5px solid #514738;
+    border-right: 1.5px solid #514738;
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
