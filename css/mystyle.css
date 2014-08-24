@@ -162,8 +162,8 @@ body {
 .btn-nav.active {
     color: #fff;
     padding: 2px;
-	border-top: 6px solid #000 ;
-	border-bottom: 6px solid #000 ;
+	border-top: 6px solid #fff ;
+	border-bottom: 6px solid #fff ;
     border-left: 0;
     border-right: 0;
     box-sizing:border-box;
