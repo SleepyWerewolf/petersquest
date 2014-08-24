@@ -159,35 +159,10 @@ body {
     -webkit-transition: text-shadow 1s ease; /* For Safari 3.1 to 6.0 */
     transition: text-shadow 1s ease;
 }
-.btn-nav.active {
+.btn-nav.active .glyphicon, .btn-nav.active p{
     color: #514738;
-    padding: 2px;
-	border-top: 6px solid #514738 ;
-	border-bottom: 6px solid #514738 ;
-    border-left: 1.5px solid #514738;
-    border-right: 1.5px solid #514738;
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    -webkit-transition: border 0.3s ease-out, color 0.3s ease 0.5s;
-    -moz-transition: border 0.3s ease-out, color 0.3s ease 0.5s;
-    -ms-transition: border 0.3s ease-out, color 0.3s ease 0.5s; /* IE10 is actually unprefixed */
-    -o-transition: border 0.3s ease-out, color 0.3s ease 0.5s;
-    transition: border 0.3s ease-out, color 0.3s ease 0.5s;
 }
-.btn-nav.active:before {
-	content: '';
-	position: absolute;
-	border-style: solid;
-	border-width: 6px 6px 0;
-	border-color: #888888  transparent;
-	display: block;
-	width: 0;
-	z-index: 1;
-	margin-left: -6px;
-	top: 0;
-	left: 50%;
-}
+
 .btn-nav .glyphicon {
     padding-top: 16px;
 	font-size: 40px;
