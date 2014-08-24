@@ -30,7 +30,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
         $(function(){
           $("#header").load("header.html");
@@ -89,32 +88,32 @@
         <!-- /.row -->
 
         <!-- Screenshots Row -->
-        <div class="row" id="screenshots">
+        <div class="row">
 
             <div class="col-lg-12">
                 <h3 class="page-header">Screenshots</h3>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="http://placehold.it/500x300">
                     <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="http://placehold.it/500x300">
                     <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="http://placehold.it/500x300">
                     <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="http://placehold.it/500x300">
                     <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
                 </a>
             </div>
@@ -124,6 +123,20 @@
 
         <hr>
         
+    <div class="popup">
+    <a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" title="The Cleaner"><img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg" width="75" height="75"/></a>
+    <a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" title="Winter Dance"><img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" width="75" height="75"/></a>
+    <a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" title="The Uninvited Guest"><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg" title="Oh no, not again!"><img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg" title="Swan Lake"><img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg" title="The Shake"><img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" title="Who's that, mommy?"><img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" width="75" height="75"></a>
+    </div>        
+
+
+
+
+
         <div id="footer"></div>
         
     </div>
@@ -131,7 +144,7 @@
     
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -139,15 +152,33 @@
     <!-- Navbar JavaScript -->
     <script>
     var activeEl = 2;
-    $(function() {
-      var items = $('.btn-nav');
-      $( items[activeEl] ).addClass('active');
-      $( ".btn-nav" ).click(function() {
-                            $( items[activeEl] ).removeClass('active');
-                            $( this ).addClass('active');
-                            activeEl = $( ".btn-nav" ).index( this );
+    jQuery(function() {
+      var items = jQuery('.btn-nav');
+      jQuery( items[activeEl] ).addClass('active');
+      jQuery( ".btn-nav" ).click(function() {
+                            jQuery( items[activeEl] ).removeClass('active');
+                            jQuery( this ).addClass('active');
+                            activeEl = jQuery( ".btn-nav" ).index( this );
                             });
       });
+    </script>
+
+    <!-- Magnific Popup -->
+    <script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function() {
+
+    jQuery('.popup').magnificPopup({
+        type: 'image',
+        delegate: 'a',
+        closeOnContentClick: true,
+        image: {
+            verticalFit: false
+        }
+    });
+
+    });
+
     </script>
 
 </body>
