@@ -108,8 +108,6 @@ body {
 	margin-top: -105px;
 }
 
-
-
 .scroll-wrapper {
 	-webkit-overflow-scrolling: touch;
   	overflow-y: auto !important;
@@ -164,8 +162,6 @@ body {
     -ms-transition: border 0.3s ease-out, color 0.3s ease 0.5s; /* IE10 is actually unprefixed */
     -o-transition: border 0.3s ease-out, color 0.3s ease 0.5s;
     transition: border 0.3s ease-out, color 0.3s ease 0.5s;
-    -webkit-animation: pulsate 1.2s linear infinite;
-    animation: pulsate 1.2s linear infinite;
 }
 .btn-nav.active:before {
 	content: '';
