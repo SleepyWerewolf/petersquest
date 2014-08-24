@@ -25,12 +25,13 @@
           </ul>
       </nav>
 
+<!-- Center Logo -->
 <script>
     
-    $(function(){
-      var docwidth  =  $(window).width();
+    jQuery(function(){
+      var docwidth  =  jQuery(window).width();
       var logo = document.getElementById("logo");
-      var pos  =  $(window).width() * .2;
+      var pos  =  jQuery(window).width() * .2;
       var width = pos.toString() + "px";
       logo.style.left = width;
       if(docwidth < 600) {
@@ -41,10 +42,10 @@
       }
       });
     
-    $(window).scroll(function(){
+    jQuery(window).scroll(function(){
                      if(docwidth > 600) {
                      var logo = document.getElementById("logo");
-                     var pos  =  $(window).width() * .2;
+                     var pos  =  jQuery(window).width() * .2;
                      var width = pos.toString() + "px";
                      logo.style.left = width;
                      }
