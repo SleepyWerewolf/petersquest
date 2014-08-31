@@ -3,15 +3,13 @@
 <footer>
 	<link href="text/javascript" src="js/Magnific-Popup.js">
     <div class="row">
-        <div class="col-lg-12" style="padding-bottom:25px">
-            <p>&copy;2014 Nykular, LLC. All rights reserved. | <a href="termsofservice.html">Terms of Service</a> | <a href="privacypolicy.html">Privacy Policy</a></p>
-
             <div id="download">
-            	<img id="android"></div>
-            	<img id="apple"></div>
-            	<img id="amazon"></div>
+            	<img class="col-md-2" id="android"></div>
+            	<img class="col-md-3" id="apple"></div>
+            	<img class="col-md-2" id="amazon"></div>
             </div>
 
+            <!-- Device Detection -->
             <script type="text/javascript">
             if (/Android/i.test(navigator.userAgent)){
             	var div = document.getElementById("android");
@@ -30,6 +28,11 @@
 				google.setAttribute('src', 'images/amazon_badge.png');
 			}
             </script>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12" style="padding-bottom:25px">
+            <p>&copy;2014 Nykular, LLC. All rights reserved. | <a href="termsofservice.html">Terms of Service</a> | <a href="privacypolicy.html">Privacy Policy</a></p>
         </div>
     </div>
 </footer>
