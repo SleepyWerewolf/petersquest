@@ -6,15 +6,28 @@
         <div class="col-lg-12" style="padding-bottom:25px">
             <p>&copy;2014 Nykular, LLC. All rights reserved. | <a href="termsofservice.html">Terms of Service</a> | <a href="privacypolicy.html">Privacy Policy</a></p>
 
-            <div id="download"></div>
+            <div id="download">
+            	<div id="android"></div>
+            	<div id="apple"></div>
+            	<div id="google"></div>
+            </div>
 
             <script type="text/javascript">
             if (/Android/i.test(navigator.userAgent)){
-            	var div = document.getElementById("download");
+            	var div = document.getElementById("android");
             	div.setAttribute('src', 'images/android_badge.png');
 			} else if (/iPhone|iPad|iPod/i.test(navigator.userAgent)){
-				var div = document.getElementById("download");
+				var div = document.getElementById("apple");
 				div.setAttribute('src', 'images/apple_badge.png');
+			} else {
+				var android = document.getElementById("android");
+				android.setAttribute('src', 'images/android_badge.png');
+
+				var apple = document.getElementById("apple");
+				apple.setAttribute('src', 'images/apple_badge.png');
+
+				var google = document.getElementById("google");
+				google.setAttribute('src', 'images/google_badge.png');
 			}
             </script>
         </div>
