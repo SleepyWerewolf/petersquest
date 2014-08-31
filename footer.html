@@ -11,10 +11,10 @@
             <script type="text/javascript">
             if (/Android/i.test(navigator.userAgent)){
             	var div = document.getElementById("download");
-            	div.textContent = "Android please";
+            	div.setAttribute('src', 'images/android_badge.png');
 			} else if (/iPhone|iPad|iPod/i.test(navigator.userAgent)){
 				var div = document.getElementById("download");
-				div.textContent = "iOS please";
+				div.setAttribute('src', 'images/apple_badge.png');
 			}
             </script>
         </div>
