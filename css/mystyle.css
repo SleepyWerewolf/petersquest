@@ -186,4 +186,8 @@ body {
         padding-top: 12px;
         font-size: 26px;
     }
+    .features-box {
+        visibility: hidden;
+        display: none;
+    }
 }
