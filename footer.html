@@ -19,8 +19,11 @@
             <!-- Device Detection -->
             <script type="text/javascript">
             if (/Android/i.test(navigator.userAgent)){
-            	var div = document.getElementById("android");
-            	div.setAttribute('src', 'images/android_badge.png');
+            	var android = document.getElementById("android");
+            	android.setAttribute('src', 'images/android_badge.png');
+
+                var google = document.getElementById("google");
+                google.setAttribute('src', 'images/google)badge.png');
 			} else if (/iPhone|iPad|iPod/i.test(navigator.userAgent)){
 				var div = document.getElementById("apple");
 				div.setAttribute('src', 'images/apple_badge.png');
