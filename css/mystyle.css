@@ -160,7 +160,7 @@ body {
     transition: text-shadow 1s ease;
 }
 .btn-nav.active .glyphicon, .btn-nav.active p{
-    color: #514738;
+    color: #cceeff;
 }
 
 .btn-nav .glyphicon {
