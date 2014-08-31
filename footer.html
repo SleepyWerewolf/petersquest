@@ -5,6 +5,18 @@
     <div class="row">
         <div class="col-lg-12" style="padding-bottom:25px">
             <p>&copy;2014 Nykular, LLC. All rights reserved. | <a href="termsofservice.html">Terms of Service</a> | <a href="privacypolicy.html">Privacy Policy</a></p>
+
+            <div id="download"></div>
+
+            <script type="text/javascript">
+            if (/Android/i.test(navigator.userAgent)){
+            	var div = document.getElementById("download");
+            	div.textContent = "Android please";
+			} else if (/iPhone|iPad|iPod/i.test(navigator.userAgent)){
+				var div = document.getElementById("download");
+				div.textContent = "iOS please";
+			}
+            </script>
         </div>
     </div>
 </footer>
